@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    background-color: #101010;
+    height: 10vh;
+    width: 100%;
+    display: block;
+}
+
+.inner_header {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1  {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+}
+
+.logo_container h1:hover{
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li{
+    text-align: center;
+    width: 130px;
+    padding: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.navigation a li:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main {
+    background-color: rgb(245, 245, 245);
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.vacuo {
+    width: 10%;
+    height: 100%;
+}
+.text_container {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .text_container h1 {
+    font-size: 34px;
+    width: 450px;
+    color: #101010;
+    margin-bottom: 10px;
+}
+
+.main .image_container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main .image_container img {
+    border-radius: 5px;
+}
+
+
+.main .text_container p {
+    font-size: 20px;
+    width: 450px;
+    color: #202020;
+    margin-bottom: 15px;
+}
+
+
+.more_button {
+    width: 100px;
+    height: 30px;
+}
+
+.more_button:hover {
+    cursor: pointer;
+}
