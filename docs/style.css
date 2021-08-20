@@ -85,6 +85,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat';
 }
 
 .vacuo {
@@ -119,14 +120,12 @@ header {
     border-radius: 5px;
 }
 
-
 .main .text_container p {
     font-size: 20px;
     width: 450px;
     color: #202020;
     margin-bottom: 15px;
 }
-
 
 .more_button {
     width: 100px;
