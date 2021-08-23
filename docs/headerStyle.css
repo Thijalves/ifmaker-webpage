@@ -6,9 +6,10 @@
 }
 
 header {
+    position: fixed;
     color: white;
     background-color: #101010;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     display: block;
 }

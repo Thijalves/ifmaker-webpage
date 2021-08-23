@@ -1,6 +1,6 @@
 .main {
     background-color: rgb(245, 245, 245);
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,17 +41,26 @@
 }
 
 .main .text_container p {
-    font-size: 18px;
-    width: 450px;
-    color: #292828;
+    font-size: 16px;
+    width: 440px;
+    color: #363535;
     margin-bottom: 15px;
 }
 
 .more_button {
-    width: 100px;
-    height: 30px;
+    margin-right: auto;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: 1px solid #101010;
+    color: white;
+    background-color: rgb(18, 139, 119);
 }
 
 .more_button:hover {
     cursor: pointer;
+    background-color: rgb(25, 161, 139);
+}
+
+.more_button:active {
+    background-color: rgb(18, 139, 119);
 }
