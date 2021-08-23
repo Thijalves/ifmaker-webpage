@@ -20,13 +20,6 @@
     justify-content: center;
 }
 
-.main .text_container h1 {
-    font-size: 34px;
-    width: 400px;
-    color: #101010;
-    margin-bottom: 10px;
-}
-
 .main .image_container {
     width: 40%;
     height: 100%;
@@ -51,7 +44,7 @@
     margin-right: auto;
     padding: 10px 10px;
     border-radius: 4px;
-    border: 1px solid #101010;
+    border: 0px solid #101010;
     color: white;
     background-color: rgb(18, 139, 119);
 }
