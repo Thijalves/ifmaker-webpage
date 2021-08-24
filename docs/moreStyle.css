@@ -1,6 +1,26 @@
 .more {
     display: flex;
-    background-color: white;
+    flex-direction: column;
+    background-color: whitesmoke;
     height: 100vh;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.more_menu {
+    background-color: violet;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+.more_content {
+    border-radius: 10px;
+    width: 60vw;
+    height: 60vh;
+    background-color: white;
 }
